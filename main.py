@@ -9,7 +9,6 @@ from timecount import countdown
 
 if __name__ == "__main__":
     load_dotenv('.env.local')
-    print("this")
 
     infura_url = os.getenv('INFURA_PROJECT_URL')
     private_key = os.getenv('PRIVATE_KEY')
